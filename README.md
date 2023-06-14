@@ -51,6 +51,23 @@ Visualize the distribution of anime ratings across different categories or genre
 ## Anime Genres
 Explore the different genres present in the anime dataset and analyze their frequency and popularity.
 
+### Word Cloud of Anime Genres
+
+To visualize the distribution of anime genres in the dataset, a word cloud was generated using the `wordcloud` library in Python. The word cloud provides an intuitive representation of the most common genres based on their frequencies.
+
+The following steps were taken to create the word cloud:
+
+1. The anime genre data was preprocessed, including removing punctuation and converting text to lowercase.
+
+2. The frequencies of each genre were calculated.
+
+3. A word cloud was created using the `WordCloud` object from the `wordcloud` library, setting the width, height, and background color.
+
+4. The word cloud was displayed to visualize the distribution of anime genres, where the size of each genre is proportional to its frequency.
+
+The resulting word cloud gives a visual representation of the most prominent genres in the dataset, helping to identify popular genres and trends.
+
+
 ## Final Data Preprocessing
 Explain the final steps of data preprocessing, such as handling missing values, encoding categorical variables, and scaling ratings.
 
